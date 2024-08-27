@@ -9,10 +9,10 @@ document.getElementById('uploadForm').addEventListener('submit', function(event)
         const formData = new FormData();
         formData.append('attachment', file);
 
-        fetch('https://api.clickup.com/api/v2/task/901801194151/attachment', {
+        fetch('https://api.clickup.com/api/v2/task/86eq4xq7t/attachment', {
             method: 'POST',
             headers: {
-                'Authorization': 'Bearer HPGW7DHDG506UVHHLTNKT19FSSLUK5V6PK40KX58UGLLBB1H6DNKVNNJI6N8HXQ6'
+                'Authorization': 'Bearer 593EKAFKTMNLGNRRNBR181TC701WCKQ5W4YZ81DU97HP6TTXYASITHDTL164WTNR'
             },
             body: formData
         })
